@@ -1,43 +1,135 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.para{
-    font-size: 30px;
-    font-weight: normal;
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #0e0e0e;
 }
-.name{
-    font-size: 30px;
-    font-weight: bolder;
-    margin-bottom: 10px;
+.para {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 60px;
+  color: #dce3e2;
 }
-.designation{
-    font-size: 20px;
-    font-weight: bolder;
+.name {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #25b085;
 }
-#praise{
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 250px;
-    /* border: 1px solid black; */
+.designation {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #c4cfce;
 }
-#kevin{
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
+#container10 {
+  padding: 100px;
+  background-color: #ffffff;
 }
-#imageandnameanddesignation{
-    display: flex;
+#container5 {
+  display: flex;
 }
-.nameanddesignation{
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#container1 {
+  /* border: 1px solid black; */
+  background-color: #f8f6f1;
+  padding: 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-#container1{
-    border: 1px solid black;
-    background-color: #F8F6F1;
-    padding: 30px;
+#container4 {
+  margin-left: 50px;
+  background-color: #f8f6f1;
+  padding: 30px;
+  border-radius: 10px;
+}
+#container9 {
+  display: flex;
+  margin-top: 50px;
+}
+#container8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #1c1a1f;
+  margin-left: 50px;
+  width: 455px;
+  border-radius: 10px;
+}
+#container7 {
+  display: flex;
+  padding: 20px;
+  background-color: #e1e7f8;
+  border-radius: 10px;
+}
+#praise {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 290px;
+}
+#kevin {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#imageandnameanddesignation {
+  display: flex;
+}
+.nameanddesignation {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#harika {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+#container3 {
+  border: 1px solid black;
+  background-color: #0f3e3a;
+  padding: 30px;
+  border-radius: 10px;
+}
+#container6 {
+  background-color: #1c2643;
+  padding: 30px;
+  border-radius: 10px;
+}
+#nadia {
+  height: 400px;
+  width: 200px;
+  margin-left: 20px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#joinus {
+  font-size: 100px;
+  color: #ffffff;
+}
+#button {
+  width: 220px;
+  height: 75px;
+  font-size: x-large;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #fff86c;
+  color: #5f5c36;
+}
+#namekevin {
+  color: #929090;
+}
+#designationkevin {
+  color: #7f7d7d;
 }
